@@ -76,6 +76,7 @@ python train.py --gpu 0,1,2,3 --n-labeled 10 \
 
 
 ### Acknowledgements
+We would like to thank the anonymous reviewers for their helpful comments, and Chao Zhang for his early feedback. We gratefully acknowledge the support of NVIDIA Corporation with the donation of the Titan V GPU used for this research.Diyi is supported in part by a grant from Google.
 
 
 
