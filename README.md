@@ -29,7 +29,7 @@ These instructions will get you running the codes of MixText.
             |__ ru_1.pkl --> Back translated training dataset with Russian as middle language
 
 |__code/
-        |__ transformers/ --> Codes copied form huggingface/transformers
+        |__ transformers/ --> Codes copied from huggingface/transformers
         |__ read_data.py --> Codes for reading the dataset; forming labeled training set, unlabeled training set, development set and testing set; building dataloaders
         |__ normal_bert.py --> Codes for BERT baseline model
         |__ normal_train.py --> Codes for training BERT baseline model
