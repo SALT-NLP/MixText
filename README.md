@@ -38,7 +38,7 @@ These instructions will get you running the codes of MixText.
 ```
 
 ### Downloading the data
-Please download the dataset and put them in the data folder. You can find Yahoo Answers, AG News, DB Pedia [here](https://github.com/LC-John/Yahoo-Answers-Topic-Classification-Dataset), IMDB [here] (https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
+Please download the dataset and put them in the data folder. You can find Yahoo Answers, AG News, DB Pedia [here](https://github.com/LC-John/Yahoo-Answers-Topic-Classification-Dataset), IMDB [here](https://www.kaggle.com/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
 
 ### Pre-processing the data
 We utilized [Fairseq](https://github.com/pytorch/fairseq) to perform back translation on the training dataset. Please refer to `./data/yahoo_answers_csv/back_translate.ipynb` for details.
