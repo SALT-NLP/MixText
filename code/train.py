@@ -227,8 +227,8 @@ def train(labeled_trainloader, unlabeled_trainloader, model, optimizer, schedule
             outputs_ori = model(inputs_ori)
 
             # Based on translation qualities, choose different weights here.
-            p = (1 * torch.softmax(outputs_u, dim=1) + 0 * torch.softmax(outputs_u2,
-                                                                         dim=1) + 1 * torch.softmax(outputs_ori, dim=1)) / (1 + 1)
+            p = (0 * torch.softmax(outputs_u, dim=1) + 0 * torch.softmax(outputs_u2,
+                                                                         dim=1) + 1 * torch.softmax(outputs_ori, dim=1)) / (1)
             # Do a sharpen here.
             pt = p**(1/args.T)
             targets_u = pt / pt.sum(dim=1, keepdim=True)
