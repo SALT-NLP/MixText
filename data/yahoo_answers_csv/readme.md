@@ -21,4 +21,5 @@ The files train.csv and test.csv contain all the training samples as comma-spara
 
 Download Link:
 You can download the original dataset here: https://github.com/LC-John/Yahoo-Answers-Topic-Classification-Dataset
-The pre-processed dataset in our paper can be found here: https://drive.google.com/file/d/1IoX9dp_RUHwIVA2_kJgHCWBOLHsV9V7A/view?usp=sharing
+
+The *pre-processed dataset in our paper* can be found here: https://drive.google.com/file/d/1IoX9dp_RUHwIVA2_kJgHCWBOLHsV9V7A/view?usp=sharing
