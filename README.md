@@ -43,6 +43,8 @@ Please download the dataset and put them in the data folder. You can find Yahoo 
 ### Pre-processing the data
 We utilized [Fairseq](https://github.com/pytorch/fairseq) to perform back translation on the training dataset. Please refer to `./data/yahoo_answers_csv/back_translate.ipynb` for details.
 
+The pre-processed Yahoo Answer dataset can be downloaded [here](https://drive.google.com/file/d/1IoX9dp_RUHwIVA2_kJgHCWBOLHsV9V7A/view?usp=sharing).
+
 Here, we have put two examples of back translated data, `de_1.pkl and ru_1.pkl`, in `./data/yahoo_answers_csv/` as well. You can directly use them for Yahoo Answers or generate your own back translated data followed the `./data/yahoo_answers_csv/back_translate.ipynb`.
 
 ### Training models
